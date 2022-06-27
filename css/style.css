@@ -1,0 +1,228 @@
+/* karla regular */
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+/* font-family: 'Karla', sans-serif; */
+/* karla regular end */
+/* karla bold */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+/* font-family: 'Karla', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+/* extrabold */
+/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&display=swap');
+/* medium */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* regular  font-family: 'Open Sans', sans-serif; */
+
+
+
+
+* {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-bar-karla li a,
+.nav-bar-karla-drop li a {
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+.nav-bar-karla {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.top-menu {
+    background-color: #1f2629;
+    height: 39px;
+}
+
+.top-menu-text p {
+    color: #bac7cd;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+
+.header-image {
+    background-image: url('../photos/header.svg');
+    height: 750px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #8d8d8d;
+}
+
+
+.text-box-middle h2,
+.text-box-middle h1 {
+    color: #ffffff;
+
+}
+
+.text-box-middle h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
+.text-box-middle h1 {
+    margin-top: -10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+
+}
+
+.lekvi {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.btn-styling {
+    margin-top: 5px;
+    background-color: #29c1e1;
+    padding: 12px 30px;
+    border-radius: 3px;
+    border: 0;
+}
+
+.move {
+    max-height: 750px;
+    min-height: 750px;
+
+}
+
+.move-up {
+    margin-top: -15px;
+}
+
+.helper-div::before {
+    content: '';
+    background-color: yellow;
+    height: 50px;
+    width: 4px;
+}
+
+.small-cover {
+    background-color: #0d0d11;
+    height: 90px;
+}
+
+.second-section span {
+    background: #f7931d;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    padding: 1px 3px 0px 4px;
+    line-height: 30px;
+
+}
+
+.second-section h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #23282f;
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+.state p {
+    color: #55595f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.state-btn {
+    background-color: #f7931d;
+    color: #ffffff;
+    font-size: 14;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0px;
+    border-radius: 3px;
+    border: 0;
+    padding-left: 25px;
+    padding-right: 24px;
+}
+
+.state {
+    padding-top: 11px;
+}
+
+.img-helping-div img {
+    margin-left: 40px;
+    box-shadow: 40px 0px 20px #e5edef;
+}
+
+.six-card-img {
+    height: 33px;
+    color: #fff;
+
+}
+
+.six-card {
+    background-image: url("../photos/blue\ box\ hover.svg");
+    display: inline-block;
+    background-repeat: no-repeat;
+    padding: 17px 15px 17px 16px;
+}
+
+.card-texts h4 {
+    color: #23282f;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-texts p {
+    color: #55595f;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 20px;
+}
+
+.card-section-style {
+    background-color: #e5edef;
+    height: 546px;
+
+}
+
+
+
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1160px;
+    }
+}
+
+@media (max-width: 550px) {
+    .img-helping-div img {
+        max-width: 100%;
+    }
+}
