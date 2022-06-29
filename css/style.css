@@ -202,7 +202,7 @@ a {
 
 .card-section-style {
     background-color: #e5edef;
-    height: 546px;
+    min-height: 546px;
 
 }
 
@@ -223,6 +223,6 @@ a {
 
 @media (max-width: 550px) {
     .img-helping-div img {
-        max-width: 100%;
+        display: none;
     }
 }
