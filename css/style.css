@@ -309,6 +309,11 @@ a {
     padding-top: 5px;
 }
 
+.middle-card-styling {
+    border: 1px solid #e6edee;
+    box-shadow: 35px 0 17px -4px #e8edf0;
+}
+
 .middle-card h5 {
     padding-top: 17px;
     padding-bottom: 1px;
@@ -357,6 +362,14 @@ a {
 
 .dash {
     padding-bottom: 110px;
+}
+
+.dash-2 {
+    padding-bottom: 63px;
+}
+
+.middle-card-btn-1 {
+    background-color: #29c1e1;
 }
 
 
