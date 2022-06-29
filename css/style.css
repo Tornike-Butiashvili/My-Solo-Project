@@ -309,6 +309,58 @@ a {
     padding-top: 5px;
 }
 
+.middle-card h5 {
+    padding-top: 17px;
+    padding-bottom: 1px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #23282f;
+}
+
+.middle-card h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #65686e;
+    padding-bottom: 45px;
+}
+
+.middle-card h6 span {
+    color: #f7941d;
+
+}
+
+.text-p-1 {
+    color: #55595f;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.middle-card-btn {
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #f7931d;
+    padding: 15px 33px 14px 31px;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.personal-line {
+    width: 34px;
+    height: 1px;
+    background-color: #f7931d;
+    margin-bottom: 22px;
+}
+
+.dash {
+    padding-bottom: 110px;
+}
+
+
+
 @media (min-width: 1400px) {
 
     .container,
