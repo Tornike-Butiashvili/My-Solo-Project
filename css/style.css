@@ -14,6 +14,8 @@
 /* medium */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /* regular  font-family: 'Open Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+/* lora italic regular */
 
 
 
@@ -220,6 +222,91 @@ a {
     padding-bottom: 5px;
     padding-right: 7px;
     padding-left: 4px;
+}
+
+.section-3 {
+    background-color: #f7931d;
+    min-height: 616px;
+}
+
+.clients {
+    padding-top: 94px;
+}
+
+.clients span {
+    background-color: #23272f;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 2px 3px 0px 5px;
+}
+
+.clients h2 {
+    color: #23282f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.clients h3 i {
+    font-size: 18px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    padding: 11px 15px 11px 13px;
+    margin-top: 5px;
+}
+
+.clients p {
+    margin-top: 20px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
+.clients p::before,
+.clients p::after {
+    content: '\f10e';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 18px;
+    position: absolute;
+}
+
+.clients p::before {
+    left: 20%;
+    top: 34%;
+}
+
+.clients p::after {
+    top: 49%;
+    right: 19%;
+}
+
+.clients h5 {
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    color: #23282f;
+    padding-top: 22px;
+}
+
+.clients h4 {
+    margin-top: -5px;
+    font-size: 14px;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    color: #23282f;
+}
+
+.hexagon {
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    object-fit: cover;
+    object-position: center;
+    width: 55px;
+    height: 63px;
+}
+
+.eqvskutx {
+    padding-top: 5px;
 }
 
 @media (min-width: 1400px) {
