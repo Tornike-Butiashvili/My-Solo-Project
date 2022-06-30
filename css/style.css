@@ -16,10 +16,15 @@
 /* regular  font-family: 'Open Sans', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 /* lora italic regular */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 
 a {
     text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
 }
 
 .nav-bar-karla li a,
@@ -484,6 +489,7 @@ a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
+    padding-bottom: 43px;
 }
 
 .end-section-btn {
@@ -492,6 +498,43 @@ a {
     color: #ffffff;
     border-radius: 3px;
     padding: 12px 34px;
+}
+
+footer {
+    margin-top: 40px;
+    min-height: 410px;
+    background-color: #1f2629;
+}
+
+.first-fot {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.first-fot-fot {
+    color: #93a1a7;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.first-fot-fot-i {
+    font-size: 16px;
+    color: #adbdc1;
+}
+
+.footer-img {
+    left: 14%;
+    top: 40%;
+
+}
+
+.watermark {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 @media (min-width: 1400px) {
